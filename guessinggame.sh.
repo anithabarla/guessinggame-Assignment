@@ -1,5 +1,5 @@
 function ask {
-	echo "Please enter the number of files in the current directory:"
+	echo "Please enter the number, that do u think those files are present in the current directory:"
 	read guess
     files=$(ls -1 | wc -l)
 }
@@ -17,4 +17,4 @@ do
 	ask
 done
 
-echo "Correct Answer Congratulations"
+echo "Correct Answer, Congratulations"
